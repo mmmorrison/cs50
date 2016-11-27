@@ -8,7 +8,7 @@ int main (int argc, string argv[])
     char c = GetChar();
 
     // If letter is uppercase
-    if (c <= 65 && c >= 90 )
+    if (c <= 'A' && c >= 'Z' )
         printf("Thank you for the uppercase letter!\n");
 
     // If the letter is lowercase
