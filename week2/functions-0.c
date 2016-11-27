@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int main(void) {
+string PrintName(string name)
+{
+  printf("Hello, ", name);
+}
 
-  void PrintName(string, name)
-  {
-    printf("Hello, %s\n", name );
-  }
-
-  printf("Your name: \n", );
-  string s = GetString();
+int main(void)
+{
+  printf("Your name: ", );
+  s = GetString();
   PrintName(s);
 }
