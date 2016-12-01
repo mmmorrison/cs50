@@ -16,6 +16,6 @@ int main (void)
         printf("Thank you for the lowercase letter!\n");
 
     // If not an alphabetical character
-    // else
-    //     printf("You did not enter an alphabetical character!\n");
+    else
+        printf("You did not enter an alphabetical character!\n");
 }
