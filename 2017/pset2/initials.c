@@ -3,5 +3,7 @@
 
 int main(int argc, string argv[]) {
 
+  string name = get_string();
+
   return 0;
 }
