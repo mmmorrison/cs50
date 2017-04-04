@@ -4,6 +4,7 @@
 int main(int argc, string argv[]) {
 
   string name = get_string();
+  printf("%s\n", name);
 
   return 0;
 }
