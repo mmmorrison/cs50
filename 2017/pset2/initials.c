@@ -1,12 +1,20 @@
 #include <stdio.h>
 #include <cs50.h>
+#include <ctype.h>
 
-int main(int argc, string argv[]) {
 
-  string name = get_string();
-  printf("%s\n", name);
+int main(int argc, string argv[])
+{
 
-  printf("argv[0]\n", );
+  if (argc > 1)
+  {
+    string initials = " ";
+    for (int i = 0; i < argc; i++)
+    {
+      initials += argv[i][0];
+    }
+  printf("%s\n", initials);
+  }
 
-  return 0;
+
 }
